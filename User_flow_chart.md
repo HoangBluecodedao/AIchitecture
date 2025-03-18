@@ -1,5 +1,7 @@
 # Đặc tả user flow - AIchitecture
 
+<img width="4064" alt="Workflow" src="https://github.com/user-attachments/assets/155d7274-99c8-43cb-b1fc-14289b7e9ec1" />
+
 ## Phase authentication
 
 Phase authentication cung cấp hai điểm truy cập chính:
