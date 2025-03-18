@@ -1,10 +1,14 @@
 # AIchitecture: Hệ thống Thiết kế Kiến trúc Thông minh
 
 ## Tổng quan Dự án
-AIchitecture là một dự án sáng tạo được phát triển bởi nhóm năm sinh viên từ khóa K20 của Đại học FPT cho cuộc thi Hackaithon. Hệ thống ứng dụng trí tuệ nhân tạo để hỗ trợ người dùng trong việc tạo ra và hình dung thiết kế kiến trúc ngoại thất và nội thất dựa trên mô tả văn bản hoặc hình ảnh đầu vào.
+AIchitecture là một dự án sáng tạo được phát triển bởi nhóm năm sinh viên từ khóa K20 - khóa mới nhất của Đại học FPT cho cuộc thi Hackaithon. Hệ thống ứng dụng trí tuệ nhân tạo để hỗ trợ người dùng trong việc tạo ra và hình dung thiết kế kiến trúc ngoại thất và nội thất dựa trên mô tả văn bản hoặc hình ảnh đầu vào.
 
+Dự án đạt top 19 trong cuộc thi Hackaithon - cuộc thi AI do trường đại học FPT tổ chức cho toàn bộ trường đại học trên toàn miền Trung. 
+https://www.facebook.com/share/15va6NWnEm/
 ## Link ý tưởng: 
 Link presentation: https://www.canva.com/design/DAGek9QegFs/MLxSBl8W7dvX2v47SAZZhg/edit?utm_content=DAGek9QegFs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+Link figma: https://www.figma.com/community/file/1483704749900859976
+
 
 ## Thành viên Nhóm
 
