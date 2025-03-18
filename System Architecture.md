@@ -1,5 +1,7 @@
 # Đặc tả Kiến trúc System Architecture AIchitecture
 
+![blu drawio (1)](https://github.com/user-attachments/assets/374162b3-11d6-40a9-bdde-6af9d96382f5)
+
 ## I. Tổng quan
 
 AIchitecture được xây dựng trên nền tảng Amazon Web Services với kiến trúc event-driven và serverless.
