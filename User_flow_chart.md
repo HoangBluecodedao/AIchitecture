@@ -38,9 +38,9 @@ Khi chọn thiết kế nội thất, người dùng thực hiện theo trình t
    - Đề xuất sản phẩm phù hợp với thiết kế
 5. Điểm quyết định: Lưu thiết kế hoặc yêu cầu thiết kế mới
 
-## Xử Lý Cuối Cùng
+## Final phase
 
-Cả hai đường dẫn thiết kế đều kết thúc tại điểm quyết định:
+Cả hai phase đều kết thúc tại điểm quyết định:
 - **Lưu Thiết Kế**: Nếu được chọn, thiết kế sẽ được lưu vào tài khoản người dùng
 - **Thiết Kế Mới**: Nếu được chọn, người dùng sẽ quay lại giai đoạn lựa chọn dịch vụ
 - **Kết Thúc**: Nếu không chọn tùy chọn nào, phiên làm việc kết thúc
