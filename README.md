@@ -4,7 +4,7 @@
 AIchitecture là một dự án sáng tạo được phát triển bởi nhóm năm sinh viên từ khóa K20 của Đại học FPT cho cuộc thi Hackaithon. Hệ thống ứng dụng trí tuệ nhân tạo để hỗ trợ người dùng trong việc tạo ra và hình dung thiết kế kiến trúc ngoại thất và nội thất dựa trên mô tả văn bản hoặc hình ảnh đầu vào.
 
 ## Link ý tưởng: 
-[Link presentation:]([url](https://www.canva.com/design/DAGek9QegFs/MLxSBl8W7dvX2v47SAZZhg/edit?utm_content=DAGek9QegFs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)) 
+Link presentation: https://www.canva.com/design/DAGek9QegFs/MLxSBl8W7dvX2v47SAZZhg/edit?utm_content=DAGek9QegFs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
 ## Thành viên Nhóm
 
