@@ -16,63 +16,6 @@ Link presentation: https://www.canva.com/design/DAGek9QegFs/MLxSBl8W7dvX2v47SAZZ
 | DE200389 | Đinh Quốc Trường | • Thiết kế Figma trang landing page<br>• Phát triển prototype<br>• Làm slide thuyết trình |
 | DE200165 | Lê Quảng Hà | • Thiết kế Figma trang landing page<br>• Phát triển prototype<br>• Làm slide thuyết trình dự án |
 
-## Kiến trúc Hệ thống
-
-### 1. Hệ thống Gợi ý Thiết kế Ngoại thất
-Hệ thống xử lý đầu vào của người dùng thông qua quy trình sau:
-
-1. **Xử lý Đầu vào**
-   - Nhận input dạng văn bản hoặc giọng nói về phong cách ngoại thất mong muốn và ước tính chi phí.
-   - Xử lý NLP qua GeminiAI
-
-2. **Kiểm tra Cơ sở Dữ liệu**
-   - Truy vấn cơ sở dữ liệu để tìm kết quả liên quan phù hợp với input
-   - Trả về kết quả đã có nếu tìm thấy các kết quả phù hợp
-
-3. **Tạo Nội dung (khi không có kết quả phù hợp)**
-   - Tạo mô tả chi tiết về phong cách ngoại thất sử dụng GeminiAI
-   - Tạo hình ảnh minh họa cho thiết kế ngoại thất sử dụng Stable Diffusion
-   - Ước tính chi phí thực hiện dựa trên thông số thiết kế
-
-### 2. Hệ thống Gợi ý Thiết kế Nội thất
-Hệ thống xử lý hai loại đầu vào:
-
-1. **Xử lý Dựa trên Văn bản**
-   - Xử lý mô tả văn bản sử dụng khả năng NLP của GeminiAI
-   - Tạo gợi ý thiết kế nội thất dựa trên phân tích văn bản
-
-2. **Xử lý Dựa trên Hình ảnh**
-   - Áp dụng quy trình xử lý hình ảnh phức tạp:
-     - Phân loại hình ảnh sử dụng Amazon Rekognition
-     - Phân đoạn hình ảnh qua Mask C-NN
-     - Trích xuất đặc trưng thông qua kiến trúc ResNet
-     - Xác minh tính tương thích giữa văn bản và hình ảnh sử dụng CLIP
-
-3. **Tạo Kết quả**
-   - Cung cấp gợi ý phong cách nội thất dựa trên dữ liệu đã xử lý
-   - Đề xuất liên kết đến các sản phẩm liên quan có sẵn trên Amazon thông qua tích hợp API
-
-## Quy trình Làm việc của Hệ thống
-
-1. Xác thực và đăng nhập người dùng
-2. Xác minh thông tin đăng nhập
-3. Lựa chọn mô hình (thiết kế Ngoại thất hoặc Nội thất)
-4. Khởi tạo session
-5. Xác minh số lượng token khả dụng
-6. Xác thực đầu vào trước khi xử lý mô hình
-7. Tạo và trình bày kết quả
-
-## Kết quả Hệ thống
-
-### Mô hình Thiết kế Ngoại thất
-- Mô tả chi tiết về phong cách
-- Hình ảnh minh họa thiết kế
-- Ước tính chi phí thực hiện
-
-### Mô hình Thiết kế Nội thất
-- Gợi ý thiết kế nội thất tùy chỉnh
-- Đề xuất sản phẩm với liên kết mua hàng trực tiếp
-
 ## So Sánh Ưu Điểm của AIchitecture với Các Giải Pháp Hiện Có
 
 | Tiêu chí | AIchitecture | Các giải pháp thiết kế truyền thống | Các nền tảng thiết kế trực tuyến hiện có |
